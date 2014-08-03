@@ -1,0 +1,7 @@
+This library provides a method for quickly calculating how many
+lines in a given project.
+It requires `find-file-in-project'.
+
+How to use
+(require 'how-many-lines-in-project)
+M-x: how-many-lines-in-project

@@ -1,0 +1,9 @@
+(ns csapp.app)
+
+(defn log [& obj-s]
+  ;; (let [foo
+  ;;       #(.html (j "#log_") (str (.html (j "#log_")) "<br/>log: " %))]
+  ;;   (.apply foo nil (clj->js obj-s)))
+  (.log js/console (first obj-s))
+  (.log js/console (clj->js obj-s))
+  (.apply js/console.log js/console (clj->js obj-s)))

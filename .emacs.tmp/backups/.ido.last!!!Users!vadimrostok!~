@@ -1,0 +1,241 @@
+;;; -*- coding: utf-8 -*-
+
+;; ----- ido-last-directory-list -----
+(
+ ("/var/" . "shader/")
+ ("/Applications/MNPP/htdocs/volla/protected/views/back/" . "admin/")
+ ("/Applications/MNPP/htdocs/volla/protected/components/" . "controller/")
+ ("/Applications/MNPP/htdocs/volla/protected/controllers/" . "back/")
+ ("/Applications/MNPP/htdocs/socrank2/src/public/js/" . "lib/")
+ ("/Applications/MNPP/htdocs/testcljsbuild/src/" . "cljs/")
+ ("/Applications/MNPP/htdocs/testcljsbuild/" . "app/")
+ ("/Users/vadimrostok/.emacs.d/elpa/" . "color-theme-sanityinc-solarized-20140619.659/")
+ ("/Applications/MNPP/htdocs/socrank2/src/public/" . "js/")
+ ("/Applications/MNPP/htdocs/socrank2/" . "src/")
+ ("/Applications/MNPP/htdocs/socrank2/src/" . "public/")
+ ("/Applications/MNPP/conf/nginx/" . "sites-enabled/")
+ ("/Applications/MNPP/conf/" . "nginx/")
+ ("/sudo:root@localhost:/etc/" . "defaults/")
+ ("/sudo:root@localhost:/" . "etc/")
+ ("/Users/" . "vadimrostok/")
+ ("/Applications/MNPP/htdocs/volla/protected/views/front/" . "layouts/")
+ ("/Applications/MNPP/htdocs/volla/protected/views/" . "back/")
+ ("/Applications/MNPP/htdocs/volla/app/" . "templates/")
+ ("/Users/vadimrostok/.emacs.d/packs/stable/colour-pack/" . "lib/")
+ ("/Users/vadimrostok/.emacs.d/packs/stable/" . "power-pack/")
+ ("/Users/vadimrostok/.emacs.d/packs/" . "stable/")
+ ("/Users/vadimrostok/.emacs.d/" . "elpa/")
+ ("/Applications/MNPP/htdocs/volla/protected/csapp/src/cljs/" . "csapp/")
+ ("/Applications/MNPP/htdocs/volla/protected/csapp/src/" . "cljs/")
+ ("/Applications/MNPP/htdocs/volla/protected/csapp/" . "src/")
+ ("/Applications/MNPP/htdocs/volla/protected/" . "views/")
+ ("/Applications/MNPP/htdocs/volla/" . "protected/")
+ ("/Applications/MNPP/htdocs/" . "socrank2/")
+ ("/Applications/MNPP/" . "htdocs/")
+ ("/Applications/" . "MNPP/")
+ ("/" . "Applications/")
+ ("/Users/vadimrostok/.live-packs/" . "vadimrostok-pack/")
+ ("/Users/vadimrostok/" . ".live-packs/")
+)
+
+;; ----- ido-work-directory-list -----
+(
+ "/Users/vadimrostok/.live-packs/vadimrostok-pack/"
+ "/Applications/MNPP/htdocs/socrank2/src/"
+ "/Applications/MNPP/htdocs/socrank2/src/public/js/"
+ "/Applications/MNPP/htdocs/socrank2/src/public/css/"
+ "/Applications/MNPP/htdocs/templater/"
+ "/etc/"
+ "/Applications/MNPP/conf/nginx/sites-enabled/"
+ "/Applications/MNPP/conf/nginx/"
+ "/Applications/MNPP/htdocs/socrank2/src/views/"
+ "/Applications/MNPP/htdocs/socrank2/src/app/"
+ "/"
+ "/Applications/MNPP/htdocs/volla/app/style/"
+ "/Applications/MNPP/htdocs/volla/protected/csapp/src/cljs/csapp/"
+ "/Applications/MNPP/htdocs/volla/app/cs/"
+ "/Applications/MNPP/htdocs/volla/protected/views/back/admin/"
+ "/Applications/MNPP/htdocs/volla/protected/controllers/back/"
+ "/Applications/MNPP/htdocs/volla/protected/components/controller/"
+ "/Applications/MNPP/htdocs/volla/protected/views/front/layouts/"
+ "/Applications/MNPP/htdocs/volla/"
+ "/Applications/MNPP/htdocs/volla/protected/models/"
+ "/Applications/MNPP/htdocs/volla/app/templates/"
+ "/Applications/MNPP/htdocs/socrank2/"
+ "/Applications/MNPP/htdocs/volla/protected/views/front/static/"
+ "/Applications/MNPP/htdocs/volla/protected/csapp/"
+ "/Applications/MNPP/htdocs/testcljsbuild/app/"
+ "/Applications/MNPP/htdocs/testcljsbuild/"
+ "/Applications/MNPP/htdocs/testcljsbuild/src/testcljsbuild/"
+ "/Applications/MNPP/htdocs/volla/app/libs/"
+ "/Users/vadimrostok/.emacs.d/elpa/color-theme-sanityinc-solarized-20140619.659/"
+ "/Users/vadimrostok/"
+ "/Users/vadimrostok/.emacs.d/"
+ "/Users/vadimrostok/.emacs.d/packs/stable/power-pack/"
+ "/sudo:root@localhost:/etc/defaults/"
+ "/Users/vadimrostok/.emacs.d/packs/stable/colour-pack/lib/"
+ "/Users/vadimrostok/.emacs.d/packs/stable/colour-pack/config/"
+ "/Users/vadimrostok/.emacs.d/packs/stable/colour-pack/"
+)
+
+;; ----- ido-work-file-list -----
+(
+ "init.el"
+ "package.json"
+ "app.js"
+ "landing.js"
+ "main.js"
+ "departments.js"
+ "f5.js"
+ "main.styl"
+ "index.html"
+ "hosts"
+)
+
+;; ----- ido-dir-file-cache -----
+(
+ ("/var/shader/" (21469 25643 0 0) "package.json" "app.js" "../" "./")
+
+ ("/Users/vadimrostok/.emacs.d/" (21467 35048 0 0) "url/" "tramp" "tmp/" "README.md" "packs/" "manifest.el" "LICENSE.txt" "lib/" "installer/" "init.el" "etc/" "elpa/" "CHANGELOG.md" "auto-save-list/" ".gitmodules" ".gitignore" ".git/" "../" "./")
+
+ ("/Users/vadimrostok/" (21469 24794 0 0) "ZTEEVDO/" "tmp/" "src/" "quicklisp/" "Qt/" "Public/" "poly-js.confs/" "Pictures/" "oldXMenu/" "nextstep/" "Music/" "Movies/" "Makefile" "lwlib/" "live-packs/" "lisp/" "Library/" "lib-src/" "lib/" "leim/" "lection3.txt" "lection2.txt" "lection.txt" "keygen_osx" "etc/" "emacs-live.el" "emacs-live-old-config/" "Downloads/" "Documents/" "doc/" "Desktop/" "config.status" "config.log" "Applications/" "admin/" ".viminfo" ".Trash/" ".tor/" ".thumbnails/" ".ssh/" ".sqlite_history" ".smex-items" ".slime-history.eld" ".slime/" ".sh_history" ".sbclrc" ".nvm/" ".npm/" ".node-gyp/" ".mongorc.js" ".m2/" ".local/" ".live-packs/" ".lesshst" ".lein/" ".kerio/" ".ido.last" ".gnupg/" ".emacs.d/" ".emacs-live.el" ".DS_Store" ".dbshell" ".config/" ".coffee_history" ".CFUserTextEncoding" ".cache/" ".bash_profile" ".bash_history" ".adobe/" "../" "./")
+
+ ("/Applications/MNPP/htdocs/socrank2/src/" (21467 40280 0 0) "views/" "test.js" "public/" "package.json" "node_modules/" "Gruntfile.js" "friends.json" "friends.js" "build/" "app.js" "app/" "../" "./")
+
+ ("/Applications/MNPP/conf/nginx/sites-enabled/" (21466 20027 0 0) "volla.local" "templater.local" "mnpp.local" "default" "../" "./")
+
+ ("/etc/" (21466 19938 0 0) "zshenv" "xtab" "ttys" "syslog.conf" "sudoers" "sshd_config" "ssh_config" "snmp/" "shells" "services" "security/" "rtadvd.conf" "rpc" "rmtab" "resolv.conf" "rc.netboot" "rc.imaging" "rc.common" "racoon/" "protocols" "profile" "ppp/" "postfix/" "php.ini.default-5.2-previous" "php.ini.default" "php-fpm.conf.default" "pf.os" "pf.conf" "pf.anchors/" "periodic/" "paths.d/" "paths" "passwd" "pam.d/" "openldap/" "ntp_opendirectory.conf" "ntp.conf" "ntp-restrict.conf" "notify.conf" "nfs.conf" "newsyslog.d/" "newsyslog.conf" "networks" "nanorc" "moduli" "master.passwd" "manpaths.d/" "manpaths" "man.conf" "mail.rc" "mach_init_per_user.d/" "mach_init_per_login_session.d/" "mach_init.d/" "locate.rc" "localtime" "krb5.keytab" "kern_loader.conf" "irbrc" "ip6addrctl.conf" "hosts~orig" "hosts.~2~" "hosts.~1~" "hosts.equiv" "hosts" "hostconfig" "group" "gettytab" "ftpusers" "ftpd.conf.default" "ftpd.conf" "fstab.hd" "find.codes" "emond.d/" "efax.rc" "dnsextd.conf" "defaults/" "cups/" "csh.logout" "csh.login" "csh.cshrc" "com.apple.screensharing.agent.launchd" "bashrc" "autofs.conf" "auto_master" "auto_home" "authorization.deprecated" "asl.conf" "asl/" "apache2/" "aliases.db" "aliases" "afpovertcp.cfg" "../" "./")
+
+ ("/Applications/MNPP/htdocs/templater/" (21466 34239 0 0) "index.html" "app.js" "../" "./")
+
+ ("/Applications/MNPP/htdocs/socrank2/src/public/css/" (21467 37939 0 0) "welcome.styl" "welcome.css" "main.styl" "main.css" "landing.styl" "landing.css" "departments.styl" "crossbrowser.styl" "chrono.styl" "../" "./")
+
+ ("/Applications/MNPP/htdocs/socrank2/src/public/js/" (21467 40985 0 0) "welcome.js" "util.js" "test-data.js" "main.js" "lib-unmanaged/" "lib/" "landing.js" "fetched.js" "f5.js" "departments.js" "chart.js" "../" "./")
+
+ ("/var/" (21469 24893 0 0) "yp/" "www/" "vm/" "tmp/" "th" "spool/" "shader/" "rwho/" "run/" "rpc/" "root/" "networkd/" "netboot/" "msgs/" "mail/" "log/" "lisp/" "lib/" "jabberd/" "folders/" "empty/" "db/" "clj/" "c/" "backups/" "audit/" "at/" "agentx/" "#_asudo_broot@192.168.1.2_b_avar_ath#" "../" "./")
+
+ ("/Applications/" (21467 35805 0 0) "ZTEMT UI/" "Xcode.app/" "XAMPP/" "Wacom Tablet.localized/" "VLC.app/" "uTorrent.app/" "Utilities/" "Unity/" "UMPlayer.app/" "Time Machine.app/" "TextEdit.app/" "System Preferences.app/" "Sublime Text 2.app/" "StuffIt/" "Stickies.app/" "Skype.app/" "Skype 2.app/" "Safari.app/" "Remote Desktop Connection.app/" "Reminders.app/" "RAR Extractor Free.app/" "QuickTime Player.app/" "Psi.app/" "Preview.app/" "Photo Booth.app/" "Opera.app/" "Notes.app/" "MNPP/" "Mission Control.app/" "Microsoft Office 2011/" "Microsoft Messenger.app/" "Microsoft Communicator.app/" "Messages.app/" "Maps.app/" "Mail.app/" "Launchpad.app/" "joxi.app/" "iTunes.app/" "iPhoto.app/" "iMovie.app/" "Image Capture.app/" "iBooks.app/" "GuitarPro.app/" "GPG Keychain Access.app/" "Google Chrome.app/" "GarageBand.app/" "Game Center.app/" "Font Book.app/" "Firefox.app/" "FaceTime.app/" "Emacs.app/" "DVD Player.app/" "Dictionary.app/" "Dashboard.app/" "Corel Painter 12/" "Contacts.app/" "Chess.app/" "Calendar.app/" "Calculator.app/" "Automator.app/" "App Store.app/" "Adobe Reader.app/" "Adobe Photoshop CS6/" "Adobe Extension Manager CS6/" "Adobe Bridge CS6/" ".localized" ".DS_Store" "../" "./")
+
+ ("/Applications/MNPP/init/" (20849 47056 0 0) "uwsgi.sh" "stopPHP54.c" "stopPHP54" "stopPHP53.c" "stopPHP53" "stopPHP52.c" "stopPHP52" "stopPHP" "stopNginx.c" "stopNginx" "stopMySQL.c" "stopMySQL" "stop54.c" "stop54" "stop53.c" "stop53" "stop52.c" "stop52" "stop.sh" "stop.c" "stop" "startPHP54.c" "startPHP54" "startPHP53.c" "startPHP53" "startPHP52.c" "startPHP52" "startPHP" "startNginx.c" "startNginx" "startMySQL.c" "startMySQL" "startMemcache.sh" "start54.c" "start54" "start53.c" "start53" "start52.c" "start52" "start.sh" "start.c" "start" "restart54.c" "restart54" "restart53.o" "restart53.c" "restart53" "restart52.c" "restart52" "restart.sh" "restart.c" "restart" "php.sh" "percona.sh" "nginx.sh" "mnpp.c" "mnpp" "hosts.sh" "environment.sh" "enableUwsgi.c" "enableUwsgi" "disableUwsgi.c" "disableUwsgi" "../" "./")
+
+ ("/Applications/MNPP/htdocs/" (21466 19636 0 0) "yii/" "volla1/" "volla/" "testcljsbuild/" "templater/" "socrank2/" "socrank/" "mnpp/" ".DS_Store" "../" "./")
+
+ ("/Applications/MNPP/htdocs/socrank2/" (21466 19538 0 0) "src/" "README.md" "doc" ".git/" ".DS_Store" ".#README.md" "../" "./")
+
+ ("/Applications/MNPP/htdocs/socrank2/src/app/" (21466 16214 0 0) "vk.js" "util.js" "routes.js" "jobs.js" "db.js" "auth.js" "../" "./")
+
+ ("/Applications/MNPP/htdocs/socrank2/src/views/" (21466 12835 0 0) "welcome.jade" "layout.jade" "landing.jade" "index.jade" "circle.jade" "../" "./")
+
+ ("/Applications/MNPP/htdocs/socrank2/src/public/" (21466 2587 0 0) "js/" "images/" "css/" ".DS_Store" "../" "./")
+
+ ("/Users/vadimrostok/.live-packs/vadimrostok-pack/" (21462 9604 0 0) "README.md" "lib/" "init.el" "info.el" "config/" "../" "./")
+
+ ("/var/www/" (20791 21943 0 0) ".DS_Store" "../" "./")
+
+ ("/var/clj/" (21464 3998 0 0) "ukk/" "new/" ".git/" "../" "./")
+
+ ("/var/clj/new/ref/src/ref/" (21464 3645 0 0) "core.clj" "../" "./")
+
+ ("/Applications/MNPP/htdocs/mnpp/" (21236 49065 0 0) "index.php" ".DS_Store" "../" "./")
+
+ ("/Applications/MNPP/htdocs/volla/app/libs/" (21457 835 0 0) "wurfl.js" "underscore.js" "stats.min.js" "require/" "other.externs.js" "less.js" "jquery.js" "jquery.externs.js" "jquery-ui.js" "jquery-2.js" "events.js" "device.js" "backbone.js" "../" "./")
+
+ ("/Applications/MNPP/htdocs/volla/protected/csapp/" (21457 835 0 0) "test/" "target/" "src/" "repl/" "README.md" "project.clj" "out/" "LICENSE" "hs_err_pid18077.log" "hs_err_pid17758.log" "doc/" ".repl/" ".nrepl-port" ".lein-repl-history" ".gitignore" "../" "./")
+
+ ("/Applications/MNPP/htdocs/volla/protected/views/front/static/" (21457 835 0 0) "main.php" "contribute.php" "beta.php" "about.php" "../" "./")
+
+ ("/Applications/MNPP/htdocs/volla/app/templates/" (21457 835 0 0) "picture/" "front/" "description.html" "contents-link.html" "common/" "back/" "album/" "action.html" "action-link.html" "../" "./")
+
+ ("/Applications/MNPP/htdocs/volla/protected/models/" (21457 835 0 0) "Statuses.php" "StaticPairs.php" "base/" "AdminAuth.php" "Action.php" "../" "./")
+
+ ("/Applications/MNPP/htdocs/volla/" (21457 835 0 0) "README.md" "protected/" "out/" "index.php" "id_rsa.pub" "id_rsa" "favicon.ico" "extendCWebApp.php" "doc" "css/" "back.php" "assets/" "app/" ".repl/" ".htaccess" ".git/" "../" "./")
+
+ ("/Applications/MNPP/htdocs/volla/protected/views/front/layouts/" (21457 835 0 0) "main.php" "../" "./")
+
+ ("/Applications/MNPP/htdocs/volla/protected/components/controller/" (21457 835 0 0) "Controller.php" "../" "./")
+
+ ("/Applications/MNPP/htdocs/volla/protected/controllers/back/" (21457 835 0 0) "AdminController.php~" "AdminController.php" "../" "./")
+
+ ("/Applications/MNPP/htdocs/volla/protected/views/back/admin/" (21457 835 0 0) "view.php" "update.php" "logo.php" "icons.php" "auth.php" "admin.php" "../" "./")
+
+ ("/Applications/MNPP/htdocs/volla/app/cs/" (21457 2974 0 0) "goog/" "delete_me.js" "delete_me.cljs" "csapp/" "clojure/" "cljs/" "app.js.map" "app.js" "app-old.js" "../" "./")
+
+ ("/Applications/MNPP/htdocs/volla/protected/csapp/src/cljs/csapp/" (21457 835 0 0) "webgl.cljs" "template.cljs" "slider.cljs" "repl.cljs" "mobile-and-tablet.cljs" "mcr.clj" "footer.cljs" "events.cljs" "doc" "descriptions.cljs" "data.cljs" "connect.cljs" "config.cljs" "app.cljs" "../" "./")
+
+ ("/Applications/MNPP/htdocs/volla/app/style/" (21457 835 0 0) "webfonts/" "UKNumberPlate.ttf" "tablet.less" "steelfishrg.ttf" "MyFontsWebfontsKit.css" "mobile.less" "main.less" "larabiefontrg.ttf" "common.less" "29CBA0_0_0.woff" "29CBA0_0_0.ttf" "29CBA0_0_0.eot" "../" "./")
+
+ ("/Applications/MNPP/htdocs/socrank/" (21438 57892 0 0) "src/" "README.md" ".git/" "../" "./")
+
+ ("/Applications/MNPP/htdocs/volla/app/" (21456 54838 0 0) "views/" "templates/" "style/" "routers/" "models/" "libs/" "goog/" "frontEnd.js" "data/" "cs/" "constants_table.js" "constants_table.cljs" "collections/" "clojure/" "cljs/" "backEnd.js" "actions/" "../" "./")
+
+ ("/Applications/MNPP/htdocs/volla/protected/views/back/" (21272 38043 0 0) "layouts/" "admin/" "../" "./")
+
+ ("/Applications/MNPP/htdocs/volla/protected/components/" (21272 37934 0 0) "user/" "controller/" "../" "./")
+
+ ("/Applications/MNPP/htdocs/volla/protected/controllers/front/" (21438 57382 0 0) "ActionsController.php" "../" "./")
+
+ ("/Applications/MNPP/htdocs/volla/protected/controllers/" (21438 57382 0 0) "RestController.php" "front/" "back/" "../" "./")
+
+ ("/Applications/MNPP/htdocs/socrank2/src/public/js/lib/" (21438 57415 0 0) "underscore.min.js" "require.min.js" "jquery.js" "ga.js" "Chart.js" "backbone.min.js" "../" "./")
+
+ ("/Applications/MNPP/" (21442 62033 0 0) "tmp/" "run/" "README.md" "PYTHON_SETUP.md" "provisions/" "MNPP.app/" "logs/" "licenses/" "Library/" "INSTALL.md" "init/" "htdocs/" "EXTENSIONS.md" "conf/" "app/" ".gitignore" ".DS_Store" "../" "./")
+
+ ("/Applications/MNPP/htdocs/volla/protected/views/front/" (21438 57382 0 0) "static/" "layouts/" "actions/" "../" "./")
+
+ ("/Applications/MNPP/htdocs/volla1/" (21236 54650 0 0) "README.md" "protected/" "out/" "index.php" "extendCWebApp.php" "css/" "back.php" "assets/" "app/" ".repl/" ".git/" "../" "./")
+
+ ("/Applications/MNPP/htdocs/testcljsbuild/app/" (21442 62424 0 0) "test.js" "../" "./")
+
+ ("/Applications/MNPP/htdocs/testcljsbuild/" (21442 62390 0 0) "test/" "target/" "src/" "resources/" "README.md" "project.clj" "LICENSE" "doc/" "app/" ".gitignore" "../" "./")
+
+ ("/Applications/MNPP/htdocs/testcljsbuild/src/cljs/testcljsbuild/" (21442 62359 0 0) "app.cljs" "../" "./")
+
+ ("/Applications/MNPP/htdocs/testcljsbuild/src/cljs/" (21442 61982 0 0) "testcljsbuild/" "../" "./")
+
+ ("/Applications/MNPP/htdocs/testcljsbuild/src/" (21442 61757 0 0) "cljs/" "clj/" "../" "./")
+
+ ("/Applications/MNPP/htdocs/testcljsbuild/src/testcljsbuild/" (21442 61631 0 0) "core.clj" "../" "./")
+
+ ("/Users/vadimrostok/.emacs.d/packs/stable/power-pack/" (21442 23229 0 0) "lib/" "init.el" "info.el" "config/" "../" "./")
+
+ ("/Users/vadimrostok/.emacs.d/elpa/color-theme-sanityinc-solarized-20140619.659/" (21442 24237 0 0) "sanityinc-solarized-light-theme.elc" "sanityinc-solarized-light-theme.el" "sanityinc-solarized-dark-theme.elc" "sanityinc-solarized-dark-theme.el" "color-theme-sanityinc-solarized.elc" "color-theme-sanityinc-solarized.el" "color-theme-sanityinc-solarized-pkg.elc" "color-theme-sanityinc-solarized-pkg.el" "color-theme-sanityinc-solarized-autoloads.el" "../" "./")
+
+ ("/Users/vadimrostok/.emacs.d/elpa/" (21442 23841 0 0) "sws-mode-20120802.1052/" "stylus-mode-20140508.650/" "solarized-theme-20140616.401/" "qsimpleq-theme-0.1.3/" "latex-preview-pane-20140206.745/" "jade-mode-20131018.1010/" "dash-20140627.2341/" "color-theme-wombat-0.0.1/" "color-theme-tango-0.0.2/" "color-theme-sanityinc-solarized-20140619.659/" "color-theme-monokai-0.0.5/" "color-theme-molokai-0.1/" "color-theme-ir-black-1.0.1/" "color-theme-heroku-1.0.0/" "color-theme-github-0.0.3/" "color-theme-eclipse-0.0.2/" "color-theme-20080305.34/" "cherry-blossom-theme-20140126.1025/" "archives/" "alect-themes-20140711.116/" "../" "./")
+
+ ("/Applications/MNPP/htdocs/volla/protected/" (21442 19588 0 0) "yiic.php" "yiic.bat" "yiic" "views/" "runtime/" "models/" "extensions/" "data/" "csapp/" "controllers/" "config/" "components/" "behaviors/" ".htaccess" "../" "./")
+
+ ("/Applications/MNPP/htdocs/volla/protected/csapp/src/" (21442 19588 0 0) "cljs/" "clj/" "../" "./")
+
+ ("/Applications/MNPP/htdocs/volla/protected/csapp/src/cljs/" (21442 19588 0 0) "csapp/" "../" "./")
+
+ ("/Users/vadimrostok/.emacs.d/elpa/jade-mode-20131018.1010/" (21440 15364 0 0) "jade-mode.elc" "jade-mode.el" "jade-mode-pkg.elc" "jade-mode-pkg.el" "jade-mode-autoloads.el" "../" "./")
+
+ ("/Applications/MNPP/htdocs/volla/protected/views/" (21272 38043 0 0) "front/" "back/" "../" "./")
+
+ ("/Applications/MNPP/conf/nginx/sites-available/" (21236 54580 0 0) "wordpress.local" "webpy.local" "web2py.local" "playvc.local" "mnpp.local" "marianka.local" "flask.local" "drupal.local" "django.local" "default" "../" "./")
+
+ ("/Applications/MNPP/conf/nginx/common/" (20849 47056 0 0) "wordpress" "php" "magento" "drupal" "default" "codeigniter" "cake" "../" "./")
+
+ ("/Applications/MNPP/conf/nginx/" (21236 49498 0 0) "win-utf" "uwsgi_params.default" "uwsgi_params" "sites-enabled/" "sites-available/" "scgi_params.default" "scgi_params" "nginx.conf.default" "nginx.conf" "mime.types.default" "mime.types" "koi-win" "koi-utf" "fastcgi_params.default" "fastcgi_params" "fastcgi.conf.default" "fastcgi.conf" "common/" ".DS_Store" "../" "./")
+
+ ("/Applications/MNPP/conf/" (21236 49498 0 0) "php54/" "php53/" "php52/" "nginx/" ".DS_Store" "../" "./")
+
+ ("/Users/vadimrostok/poly-js.confs/" (21236 54115 0 0) "ya.conf" "volla.conf" "shepi.conf" "README.md" "polyjs.conf" "overdrive.conf" "htpasswrds" "booking.conf" ".git/" "../" "./")
+
+ ("/Users/vadimrostok/.emacs.d/packs/stable/colour-pack/config/" (21237 22988 0 0) "live-fontify-hex-conf.el" "colour-theme-conf.el" "../" "./")
+
+ ("/Users/vadimrostok/.emacs.d/packs/stable/colour-pack/lib/" (21237 23423 0 0) "live-fontify-hex.el" "gandalf.el" "cyberpunk.el" "color-theme/" "../" "./")
+
+ ("/Users/vadimrostok/.emacs.d/packs/stable/colour-pack/" (21236 65435 0 0) "lib/" "init.el" "info.el" "config/" "../" "./")
+
+ ("/Users/vadimrostok/.emacs.d/packs/stable/" (21236 65435 0 0) "power-pack/" "org-pack/" "lang-pack/" "git-pack/" "foundation-pack/" "colour-pack/" "clojure-pack/" "bindings-pack/" "../" "./")
+
+ ("/Users/vadimrostok/.emacs.d/packs/" (21236 65435 0 0) "update-live-packs" "template/" "stable/" "dev/" "../" "./")
+
+ ("/Users/" (21236 49055 0 0) "vadimrostok/" "Shared/" "Guest/" ".localized" ".bash_profile" "../" "./")
+
+ ("/Users/vadimrostok/.live-packs/" (21236 65445 0 0) "vadimrostok-pack/" "../" "./")
+)
+
+;; ----- ido-unc-hosts-cache -----
+t

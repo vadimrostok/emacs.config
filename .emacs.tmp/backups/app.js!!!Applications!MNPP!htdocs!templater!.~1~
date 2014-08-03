@@ -1,0 +1,104 @@
+console.log("test");
+
+(function(){
+
+	var parse_template = function(str){
+		
+		return str;
+	}
+	var generate_html = function(template, data){
+		var html = '';
+		return html;
+	}
+
+	var Chock = function(node, template){
+		this.node = node;
+		if(!template && node.html().replace(/\s/gm).length){
+			// it contains template
+			this.template = node.html();
+		}
+		if(template){
+			this.template = template;
+		}
+		this.map = {};
+	}
+
+	Chock.prototype.set = function(data, template, callback){
+		if(data instanceof Object){
+			if(data instanceof Array){
+				var old_template = this.template;
+				var each_template = generate_default_template(Object.keys(data));
+				each_template = parse_template(each_template);
+				var full_html = generate_html(each_template, data);
+				this.node.html(html);
+				this.node.children().each(function(num1, num2){
+					//console.log(num1, num2);
+					this.map[num1] = new Chock($(this), each_template);
+					this.map[num1].bind();
+				})
+
+			} else {
+				if(template){
+					this.template = template;
+				}
+				if(!this.template){
+					this.template = generate_default_template(Object.keys(data));
+				}
+				// generate HTML with data
+
+				if(!(this.template instanceof Object)){
+					this.template = parse_template(this.template);
+				}
+
+				var html = generate_html(this.template, data);
+
+				this.node.html(html);
+
+			}
+		} else {
+			this.node.text(data);
+		}
+	}
+
+	Chock.prototype.setTemplate = function(template){
+		this.template = template;
+	}
+
+	Chock.prototype.bind = function(){
+		this.map = {};
+		$("[chock-field]", this.node).each(function(){
+					var fieldname = $(this).attr('chock-field');
+					if(this.map[fieldname]){// element already exists
+						this.map[fieldname].node.add($(this));
+					} else {
+						this.map[fieldname] = new Chock($(this));
+					}
+		})
+	}
+				
+
+	Chock.prototype.get = function(nodename){
+		return this.map[nodename];
+	}
+})()
+
+var a = new Chock('body');
+
+a.set({usernum: 3, users: [
+		{
+			name: 'Ivan',
+			surname: 'Petrenko',
+			age: 12
+		},
+		{
+			name: 'Petro',
+			surname: 'Petrenko',
+			age: 22
+		},
+		{
+			name: 'Sergii',
+			surname: 'Petrenko',
+			age: 35
+		},
+
+]})

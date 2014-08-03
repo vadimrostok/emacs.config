@@ -1,0 +1,197 @@
+(function(){
+	var parse_template = function (str) {
+		var rows = str.split("\n");
+		for (var i in rows) {
+			if (rows[i].indexOf("`") > -1) {
+				console.log(rows[i]);
+			}
+		}
+
+		var getIn = function (tree, path) {
+			var tmp = tree;
+			for (var i in path) {
+				tmp = tmp[path[i]];
+			}
+			return tmp;
+		}
+
+		var m = str.match(/(\s|\t)*(\w*)?([A-Za-z0-9\.]*)?(\$[A-Za-z0-9\.]*)?(`([^`]*)`)?.*\n/g);
+		var tree = {children: [], level: 1};
+		var branch = {};
+		var currentPath = [];
+		var prevLevel = 1;
+		var prevNode = {parent: tree,
+						level: 1,
+						children: []};
+
+		tree.children.push(prevNode);
+
+		var nodes = [tree];
+
+		for (var i in m) {
+			var n = m[i].match(/\n?([\s\t]*)([\w]*)?([A-Za-z0-9\.]*)?(\$[A-Za-z0-9\.]*)?(?:`([^`]*)`)?.*/);
+
+			var cur_level = n[1].length;
+
+
+			var res = {
+				classes: (n[3] || "").split(".").slice(1) || [],
+				tag: n[2] || "div",
+				text: n[5],
+				level: cur_level,
+				children: []
+			};
+
+			var variable = n[4] ? n[4].slice(1) : '';
+			if(variable[0] === '.'){
+				variable = variable.slice(1);
+				res.classes.push(variable);
+			}
+			res.variable = variable.length ? variable : undefined;
+
+			if(cur_level === prevLevel){// siblings
+				res.parent = prevNode.parent;
+			}
+			if(cur_level > prevLevel){
+				res.parent = prevNode;
+			}
+			if(cur_level < prevLevel){
+				var parent = prevNode;
+				//console.log(parent, parent.parent);
+				for(var i = cur_level; i <= prevLevel; i++){
+					parent = parent.parent;
+				}
+				res.parent = parent;
+			}
+			res.parent.children.push(res);
+
+			nodes.push(res);
+
+			prevNode = res;
+			prevLevel = cur_level;
+		}
+
+		return nodes;
+	}
+
+	var generate_html = function(tokens_list, data){
+		var stringsArray = [];
+		var j = -1;
+
+		var recurBuildStr = function (node) {
+			j++;
+			var jj = j;
+		    var spaces = (new Array(Number(node.level)*4)).join(" ");
+			if (node.text) {
+				stringsArray.push('\n' +  spaces + node.text);
+				return;
+			}
+			var tag = node.tag || "div", classes = (node.classes || []).join(" ");
+			var chockData = node.variable? "chock-data=\"" + node.variable + "\"": "";
+
+			if(jj > 1)
+			stringsArray.push('\n' +  spaces + "<" + tag + " class=\"" + classes + "\" " + chockData + ">");
+
+			for (var i in node.children) {
+				recurBuildStr(node.children[i]);
+			}
+
+			if(jj > 1)
+			stringsArray.push('\n' +  spaces + "</" + tag + ">");
+		};
+		recurBuildStr(tokens_list[0]);
+		return stringsArray.join('');
+
+	}
+
+	var Chock = function(node, template){
+		this.node = node;
+		if(!template && node.html().replace(/\s/gm).length){
+			// it contains template
+			this.template = node.html();
+		}
+		if(template){
+			this.template = template;
+		}
+		this.map = {};
+	}
+
+	Chock.prototype.set = function(data, template, callback){
+		if(data instanceof Object){
+			if(data instanceof Array){
+				var old_template = this.template;
+				var each_template = generate_default_template(Object.keys(data));
+				each_template = parse_template(each_template);
+				var full_html = generate_html(each_template, data);
+				this.node.html(html);
+				this.node.children().each(function(num1, num2){
+					//console.log(num1, num2);
+					this.map[num1] = new Chock($(this), each_template);
+					this.map[num1].bind();
+				})
+
+			} else {
+				if(template){
+					this.template = template;
+				}
+				if(!this.template){
+					this.template = generate_default_template(Object.keys(data));
+				}
+				// generate HTML with data
+
+				if(!(this.template instanceof Object)){
+					this.template = parse_template(this.template);
+				}
+
+				var html = generate_html(this.template, data);
+
+				this.node.html(html);
+
+			}
+		} else {
+			this.node.text(data);
+		}
+	}
+
+	Chock.prototype.setTemplate = function(template){
+		this.template = template;
+	}
+
+	Chock.prototype.bind = function(){
+		this.map = {};
+		$("[chock-field]", this.node).each(function(){
+					var fieldname = $(this).attr('chock-field');
+					if(this.map[fieldname]){// element already exists
+						this.map[fieldname].node.add($(this));
+					} else {
+						this.map[fieldname] = new Chock($(this));
+					}
+		})
+	}
+
+
+	Chock.prototype.get = function(nodename){
+		return this.map[nodename];
+	}
+})()
+
+var a = new Chock('body');
+
+// a.set({usernum: 3, users: [
+// 		{
+// 			name: 'Ivan',
+// 			surname: 'Petrenko',
+// 			age: 12
+// 		},
+// 		{
+// 			name: 'Petro',
+// 			surname: 'Petrenko',
+// 			age: 22
+// 		},
+// 		{
+// 			name: 'Sergii',
+// 			surname: 'Petrenko',
+// 			age: 35
+// 		},
+
+]})
