@@ -34,6 +34,7 @@
 (setq-default truncate-lines t)
 (setq x-select-enable-clipboard t)
 (menu-bar-mode -1)
+(delete-selection-mode 1)
 ;;linum mode forever
 ;;(global-linum-mode t)
 ;disable backup
@@ -71,6 +72,9 @@
 		("\\.clj$". clojure-mode)
 		("\\.cljs$". clojure-mode)
 		("\\.php$" . php-mode))))
+
+;;rnas-mode
+(load "~/emacs.config/lib/rnas-mode.el")
 
 ;;web-mode settings
 (defun my-web-mode-hook ()
